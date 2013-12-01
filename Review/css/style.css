@@ -1,0 +1,70 @@
+.wrapper{
+	width:980px;
+	margin:0px auto;
+}
+.header{
+	height: 100px;
+	border: 1px solid orange;
+	margin-bottom: 10px;
+}
+
+.logo{
+	border: 1px solid red;
+    float:left;
+}
+.nav-sector{
+	border: 1px solid purple;
+    float:right;
+}
+
+.sign-in {
+	list-style: none;
+}
+	.sign-in li {
+		display: inline-block;
+	}
+
+.main-nav {
+	list-style: none;
+}
+	.main-nav li {
+		display: inline-block;
+	}
+
+
+.clear{
+    clear:both;
+}
+.small_row {
+	height: 15px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.returns {
+	width: 350px;
+	min-height: 200px;
+	border: 1px solid green;
+	float: left;
+}
+
+.borrow {
+	width: 450px;
+	min-height: 200px;
+	border: 1px solid orange;
+	margin-left: 10px;
+	float: right;
+}
+.marketing {
+	height: 300px;
+	border: 1px solid red;
+	/*display: inline-block;*/
+
+}
+.box { 
+	border: 1px solid red;
+	width: 250px;
+	min-height: 200px;
+	display: inline-block;
+	margin: ;
+}

@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Arial Narrow";
+}
+body {
+}
+#wrapper{
+	border: 5px solid black;
+	margin: 0 auto;
+	width: 1072px;	
+}
+	#header {
+		width: 1068px;
+		height: 148px;
+	}
+		#header img {
+			margin-left: 20px;
+		}
+		#phone_no {
+			float: right;
+			margin-top: 30px;
+			margin-right: 25px;
+		}
+		#menu {
+			height: 76px;
+			border-top: 2px solid gray;
+			background-color: #EAEEF0;
+		}
+			#menu_list {
+				height: 30px;
+				margin-top: 10px;
+				background-color: #D4DAE0;
+			}
+			#menu_list li {
+				display: inline;
+			}
+			#menu_list li a{
+				margin-right: 20px;
+				padding-left: 20px;
+				border-left: 1px solid gray;
+				color: #393939;
+				font-weight: bold;
+			}
+			#menu input {
+				width: 167px;
+				height: 30px;
+				margin-left: 25px;
+				background-color: white;
+			}
+	#content {
+		background-color: black;
+		width: 1072;
+		height: 580px;
+		padding: 10px 20px;
+	}
+		#content #winter_img {
+			border: 10px solid white;
+		}
+		#about {
+			width: 600;
+			height: 263;
+			float: right;
+			background-color: #545452;
+		}
+			#about h4 {
+				height: 30px;
+				width: 580px;
+				background-color: yellow;
+				padding-top: 10px;
+				padding-left: 10px;
+			}
+			#about h3 {
+				padding-top: 15px;
+				padding-left: 15px;
+				color: white;
+			}
+			#about p {
+				width:600px;
+				padding-left:15px;
+			}
+			#small_logo {
+				float: left;
+			}
+			h5 {
+				float: left;
+				color: yellow;
+				margin: left: 20px;
+			}
+			.info {
+				float: left;
+				/*border: 2px solid blue;*/
+				width: 225px;
+				height: 275px;
+				margin-right: 25px;
+				margin-top: 10px;
+				background-color: white;
+			}
+			.info h4 {
+				height: 25px;
+				width: 215px;
+				background-color: yellow;
+				padding-top: 8px;
+				padding-left: 10px;
+			}
+			.info p {
+				margin-left: 8px;
+			}
+			.info a {
+				width: 60px;
+				height: 15px;
+				margin-left: 110px;
+				padding: 3px;
+				padding-right: 5px;
+				background-color: yellow;
+				border: 2px solid black;
+				font-size: small;
+			}
+				#commercial {
+				}
+
+.white_text {
+	color: white;
+}
+.bold {
+	font-weight: bold;
+}
+.clear {
+	clear: both;
+}
